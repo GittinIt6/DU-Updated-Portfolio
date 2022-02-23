@@ -1,12 +1,12 @@
-# DU-HW2-Portfolio
+# DU-Updated-Portfolio
 
-DU Coding Bootcamp Homework 2: Portfolio
+DU Coding Bootcamp: Portfolio
 
 # Website
 
 This is a website showcasing **Michael J.** experience and work.
 
-Public Website Address: https://gittinit6.github.io/DU-HW2-Portfolio/
+Public Website Address: https://gittinit6.github.io/DU-Updated-Portfolio/
 
 ## Purpose
 
@@ -32,6 +32,8 @@ Root Directory
     │
     └─── css (folder)
     │
+    └─── files (folder)
+    │
     └─── images (folder)
 ```
 >**CSS**: This site uses a single CSS file "style.css"
@@ -42,4 +44,4 @@ The following image shows a screenshot of the website homepage:
 
 ## Revision History 
 
-1. This website was created in January 2022 as part of a bootcamp assignment. It was created from scratch using HTML5 Semantic Elements, a responsive design using flexboxes and mediat queries. Readme was created at this time along with publishing to a GitHub Repository.
+1. This website was created in January 2022 as part of a bootcamp assignment, then updated in February 2023 as part of the same bootcamp class. It was created from scratch using HTML5 Semantic Elements, a responsive design using flexboxes and mediat queries. Readme was created at this time along with publishing to a GitHub Repository.

@@ -213,7 +213,7 @@ main section article p{
 .work-summary-bottom{
     position:absolute; 
     left: 0px;
-    width: 150px;
+    width: 180px;
     background-color: var(--turquish);
     color: black;
     padding-left: 10px;
@@ -262,8 +262,18 @@ footer section ul li{
 /* reducing size of work items and their titles as they wrap into columns */
 /* aligning contact info into column */
 @media screen and (max-width: 520px){
+    header nav ul{
+        min-width: 358px; 
+    }
+
     header nav ul li{
         padding: 15px 5px;
+    }
+    header h1{
+        margin: 50px 0px 0px 0px;
+        padding: 5px 2px 5px 0px;
+        height: 15px;
+        font-size: 20px;
     }
     header aside{
         margin:15px 0px;
@@ -291,11 +301,11 @@ footer section ul li{
     }
     .work-summary-top,
     .work-summary-bottom{
-        width: 100px;
+        width: 120px;
         padding-left: 10px;
     }
     .work-summary-top{
-        font-size: 16px;
+        font-size: 12px;
     }
     .work-summary-bottom{
         font-size: 10px;
