@@ -219,6 +219,23 @@ main section article p{
     padding-left: 10px;
 }
 
+main ul li a{
+    color:black;
+    background-color: var(--turquish);
+}
+/* #pri-work-summary-top{
+    bottom: 50px;
+    height: 45px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#pri-work-summary-bottom{
+    bottom: 30px;
+    height: 20px;
+    font-size: small;
+} */
+
 .work-summary-top{
     bottom: 50px;
     height: 25px;
@@ -245,6 +262,9 @@ footer section ul li{
     display: inline-block;
     padding: 10px 40px;
 }
+footer section ul li a{
+    background-color: rgb(241, 241, 241);
+}
 
 /* added copyright at very bottom */
 #second-footer{
@@ -263,7 +283,8 @@ footer section ul li{
 /* aligning contact info into column */
 @media screen and (max-width: 520px){
     header nav ul{
-        min-width: 358px; 
+        min-width: 358px;
+        padding-right: 10px; 
     }
 
     header nav ul li{
